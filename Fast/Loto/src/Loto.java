@@ -32,7 +32,6 @@ public class Loto {
 
         int x= 0;
 
-
         Set t = TicketOfSix();
         System.out.println();
 
@@ -40,7 +39,6 @@ public class Loto {
 
         if (myOwnTicketOfSix.contains(x)){
             x++;
-
         }
         System.out.println();
 
@@ -62,8 +60,6 @@ public class Loto {
                 System.out.println("Tichet necastigator!");
                 break;
         }
-
-
     }
 }
 

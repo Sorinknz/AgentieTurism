@@ -9,6 +9,7 @@ CONSTRAINT postarea_fk_user_fkey FOREIGN KEY (fk_user)
 REFERENCES "user" (id) MATCH SIMPLE
 ON UPDATE NO ACTION ON DELETE NO ACTION
 
+
 CREATE TABLE "user"
 (
 id numeric(20,0) NOT NULL,
@@ -19,6 +20,7 @@ blocat boolean,
 varsta integer,
 CONSTRAINT pku PRIMARY KEY (id)
 )
+
 
 
 2. select username, mesaj
